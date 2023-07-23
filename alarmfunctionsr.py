@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 """
- V15.00 - Move Send to server to single function
 ---------------------------------------------------------------------------------
  Works conjunction with host at www.privateeyepi.com
  Visit projects.privateeyepi.com for full details
@@ -24,6 +23,7 @@
  V13.00 - Added support for wireless RF Relay and GPIO
  V14.10 - Support for Python 3 and tty/serial0
  V15.00 - Move Send to server to single function
+ V16.00 - Add pep.jemrf.com as alternate URL
  -----------------------------------------------------------------------------------
 """
 
@@ -75,6 +75,7 @@ def get_latest_photo(files):
 def Buildscript_path(function,opcode):
     # Sends data to the server ^M
     script_path = "https://www.privateeyepi.com/alarmhostr.php?token="+globals.token+"&function="+str(function)
+    #script_path = "https://pep.jemrf.com/alarmhostr.php?token="+globals.token+"&function="+str(function)
     i=0
     for x in opcode:
         script_path=script_path+"&opcode"+str(i)+"="+str(opcode[i])

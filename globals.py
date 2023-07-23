@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-globals.py 11.00 PrivateEyePi Globals Parameters
+globals.py PrivateEyePi Globals Parameters
 ---------------------------------------------------------------------------------
  Works conjunction with host at www.privateeyepi.com
  Visit projects.privateeyepi.com for full details
