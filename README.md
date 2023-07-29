@@ -8,6 +8,7 @@ Current Version or Date stamp if marked.
 #### Program             Version
 * alarm.py            15
 * alarmfunctionsr.py  16
+* bme280.py
 * callback.py
 * dallas.py           16
 * dht22.py            16
